@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #A1CCD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.card-left {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.img-select {
+    display: flex;
+}
+
+.img-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border: 2px solid black;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-right h2 {
+    font-weight: 400;
+}
+
+.card-right h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-right h4 span {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.card-right p {
+    margin: 15px 0px;
+    color: rgba(o, 0, 0, 0.5);
+    padding: 10px 0px;
+}
+
+.form {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group label,
+.form-group select {
+    display: block;
+}
+
+.btn-cart {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    border-radius: 3px;
+
+}
+
+.form-group select {
+    border-radius: 3px;
+    width: 150px;
+    height: 25px;
+
+}
+
+.form-group .input-group {
+    justify-content: center;
+    width: 150px;
+    height: 25px;
+    display: flex;
+
+}
+
+.form-group .input-group input {
+    width: 100px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    padding-left: 30%;
+}
+
+.form-group .input-group .btn-1 {
+    width: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.form-group .input-group .btn-2 {
+    width: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
